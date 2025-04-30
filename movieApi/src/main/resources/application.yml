@@ -1,7 +1,7 @@
 spring:
   datasource:
-    username: root
-    password: root
+    username: ****
+    password: ****
     url: jdbc:mysql://localhost:3306/movies
   jpa:
     hibernate:
@@ -17,8 +17,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: "zaidhbtu@gmail.com"
-    password: "rfeu hcod vlhi ybfa"
+    username: "youremail"
+    password: "yourpassword
     properties:
       mail:
         smtp:
