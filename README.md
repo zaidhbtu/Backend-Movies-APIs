@@ -109,10 +109,10 @@ http://localhost:8080/swagger-ui/index.html
 
 ```json
 {
-  "title": "Inception",
-  "description": "A mind-bending thriller",
+  "name": "Inception",
+  "director": "A mind-bending thriller",
   "releaseDate": "2010-07-16",
-  "genre": "Sci-Fi"
+  "studio": "Sci-Fi"
 }
 ```
 
@@ -138,7 +138,7 @@ Use multipart/form-data with the above JSON and an image file.
 
 ## 📸 Image Uploading
 
-- Accepts only `.jpg`, `.jpeg`, `.png`
+- Accepts only `.png`
 - Validated and stored under `/uploads/` directory
 - Can be retrieved or served statically
 
